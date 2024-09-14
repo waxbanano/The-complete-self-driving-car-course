@@ -1,0 +1,40 @@
+python_crash_course_2_arithmatic_operations
+
+Addition ( + )
+  - print(1+1)
+    - int type
+  
+Subtraction ( - )
+  - print(1-1)
+    - int type
+
+Multiplication ( * )
+  - print(7*7)
+    - int type
+
+Division ( / )
+  - print(10/5)
+    -  **division gives a float type **
+
+Division, rounding down to the nearest integer ( // )
+  - print(13//2)
+    - Output = 6  ( int type )
+
+Modulus ( % )
+  -  the remainder after dividing one number by another
+    - print(6%2)
+      - Output = 0
+    - print(9%2)
+      - Output = 1
+
+Exponents ( ** )
+  - print(6**2)
+    - Output = 36
+
+Python follows the order of operations
+  - The order of operations are the rules that tell us the sequence in which we should solve an expression with multiple operations. The order is PEMDAS: Parentheses, Exponents, Multiplication, and Division (from left to right), Addition and Subtraction (from left to right).
+ 
+  - print(6+9*3+3)
+    - Output = 36
+  - print((6+9)*(3+3))
+    - Output = 90
