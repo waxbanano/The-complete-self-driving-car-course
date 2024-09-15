@@ -1,0 +1,59 @@
+python_crash_course_3_variables
+
+
+  - A variable is defined as a label that can be used to hold a value. A variable holds one value in memory
+that can be retrieved many times.
+
+Example: 
+  - age = 41
+
+- With Python you can use the comma operator to assign multiple variables at once. 
+  - Proper order is imperative.
+  - Only use this notation wih closely related variables
+
+  Example:
+    - age, name, gender = 41, 'Scott', 'Male'
+    - width, height = 2, 4
+
+DO NOT use spaces in variable names
+  - WRONG: 
+    - blood type = 'AB'
+  - CORRECT:
+    -blood_type = 'AB'
+
+One thing to also note about pythonic variables is that you can assign them a new value storing a new
+value to a specific variable erases the old one.
+    Example:
+      - age = 41
+      - age = age + 5
+      - print(age)
+        - Output: 46
+    Shorthand code example using the plus equal assignment operator:
+      - ( += ) take the current value and increment
+      - ( -= ) take the current value and decrement
+          - age = 41
+          - age += 1
+          - print(age)
+            - Output: 42
+          - age = 41
+          - age -= 1
+          - print(age)
+            - Output: 40
+      
+
+TIPS:
+  - Only use letters and numbers and your variable names, don't use symbols like dollar sign or modulus
+  - As a convention all variable names should be lowercase and have an underscore in between.
+  - Use snake_case , DO NOT use CamelCase
+  - There are certain keywords in Python that you CANNOT use as variable names.
+
+              Reserved keywords in Python:
+
+              False	await	else	import	pass
+              None	break	except	in	raise
+              True	class	finally	is	return
+              and	continue	for	lambda	try
+              as	def	from	nonlocal	while
+              assert	del	global	not	with
+              async	elif	if	or	yield
+
