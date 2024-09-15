@@ -1,1 +1,32 @@
 python_crash_course_9_slicing
+
+We can access more than one item in a list by slicing.
+
+Slicing is done with a set of indices which specifies a range. The start and stop. Make note 
+the upper index is exclusive, meaning the slicing stops at that index minus one.
+
+    Example:
+      - list = [0,1,2,3,4,5,6,7,8,9,10]
+        - print(list[2:9])
+          - Output: [2, 3, 4, 5, 6, 7, 8]
+
+ If you omit the starting index, it assumes that you're going to start at the very beginning of the list
+ up until your stop index minus one.
+    Example:
+      - list = [0,1,2,3,4,5,6,7,8,9,10]
+        - print(list[:9])
+          - Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+If you omit the stop index completely. It automatically assumes that you want everything
+in the list beyond your start index.
+    Example:
+      - list = [0,1,2,3,4,5,6,7,8,9,10]
+        - print(list[2:])
+          - Output: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+a[start:stop]  # items start through stop-1
+a[start:]      # items start through the rest of the array
+a[:stop]       # items from the beginning through stop-1
+a[:]           # a copy of the whole array
+
+
+        
