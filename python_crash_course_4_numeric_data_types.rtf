@@ -1,8 +1,30 @@
 python_crash_course_4_numeric_data_types
 
-  There are two Python data types that are used to denote numeric values int for integer values
+There are two Python data types that are used to denote numeric values int for integer values
 and float for decimal values.
 
   - int, is for whole numbers i.e. (1,2,3,4,5... etc)
   - float, is for decimal numbers (1.0, 2.2, 3.3, 4.4, 6.6666..... etc)
 
+Check type() function to determine data type of value
+  - Example:
+    - print(type(420))
+      - Output: <class 'int'>
+    - print(type(420.69))
+      - Output: <class 'float'>
+
+A mathematical operation between an integer and a float will always produce a float
+
+You can set the data type by using the following syntax
+  - int() , sets data type to int
+  - float() , sets data type to float
+
+Let's assume for whatever reason that you absolutely needed the product of this division to be an integer
+type to convert this flow numeric type to an integer. We can do so with the following syntax by wrapping it 
+with the integer data type.
+  - Example: x = int(3.7)
+        - print(x)
+          - Output: 3
+  - Example x = float(3)
+        - print(x)
+          - Output: 3.0
