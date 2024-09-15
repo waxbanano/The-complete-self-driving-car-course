@@ -21,3 +21,26 @@ Setting double quotes inside of a a string, single quotes must wrap the complete
 Using a single quote inside of a string, a backslash must be used before the quote to indicate that this is inside the string.
     - Example:
       - phrase = 'I didn\'t learn much python'
+
+Combining two or multiple strings is called concatenation, and a ( + ) sign is used, adding space is done with empty quotes ( " "  ).
+   - Example:
+      - segment_one = 'Life,'
+      - segment_two = 'uh,'
+      - segment_three = 'finds a way.'
+         - dialogue = segment_one + ' ' + segment_two + ' ' + segment_three
+
+Repeating strings is possible using the ( * ) symbol
+   - Example: 
+      - daft_punk = 'Around the world'
+         - print(daft_punk * 10)
+            - Output:  Around the world, Around the world, Around the world, Around the world, Around the world,
+               Around the world, Around the world, Around the world, Around the world, Around the world, 
+
+Using the len() function we can count the characters of a string.
+      - Example: 
+         - daft_punk = 'Around the world'
+            - song = daft_punk*10
+               - print(len(song))
+                  - Output: 180
+
+
