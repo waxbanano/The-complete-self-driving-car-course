@@ -1,2 +1,27 @@
 python_crash_course_8_lists
 
+Lists are used to store multiple items in a single variable using square bracket notation.
+
+List items are ordered, changeable, and allow duplicate values.
+
+List items are indexed, the first item has index [0], the second item has index [1] etc.
+
+  Example:
+    - cat_names = [ 'Butterscotch', 'Chocolate', 'Chip', 'Waffle', 'Pancake', 'Bender', 'Mama']
+      - print(cat_names[0])
+        - Output: Butterscotch
+
+  Excercise:
+      We can use the len() function to get the length of a list. Knowing that the len() functions returns 7 and that the last 
+      list item is numbered 6 ( 0, 1, 2, 3, 4, 5, 6), We can define and find the last item as ( length -1 ).
+          Example:
+            - print(len(cat_names))
+              - Output: 7
+      We can locate the last item in the list by using the function 
+            - length = len(cat_names)
+              - print(cat_names[length-1])
+                - Output: Mama
+          Alternatively we can much easier index from the end of the array by using negative values where negative 1 represents
+          the last element.
+              - print(cat_names[-1])
+
