@@ -1,1 +1,16 @@
 python_crash_course_12_mutability_part2
+
+Example:
+  name = 'cat'
+  other_name = name
+  name = 'dog'
+  print(name)
+  print(other_name)
+    Output:
+      - dog
+      - cat
+
+    If I create a variable name is equal to a mirror, that variable holds an immutable string which saved in memory.
+    If I assign other name is equal to name and then reassign name to another value equal to John, this does not affect the value of other name.
+    We can show this by printing, print, name and print, other name and the results. You can clearly see that even though we updated the value of a name, 
+    that update was not reflected in other name.
