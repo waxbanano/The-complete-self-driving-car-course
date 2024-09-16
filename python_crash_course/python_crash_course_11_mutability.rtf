@@ -1,1 +1,23 @@
 python_crash_course_11_mutability
+
+
+Mutability refers to whether or not we can change something once it's been created.
+    - If an object can be changed then it's mutable.
+    - If an object cannot be changed without creating a completely new object then that would be considered immutable.
+
+  List - [Boolean, Integer, Float, String] - mutable
+    Example:
+      - grocery_list = ['bacon', 'eggs', 'tomatos']
+        - grocery_list[2] = 'bread'
+            - print(grocery_list)
+                - Output: ['bacon', 'eggs', 'bread']
+
+  String - ' C H A R A C T E R S ' - immutable
+    Example:
+      - misspelled = 'chease'
+          - misspelled[3] = 'e'
+            - print(misspelled)
+              - Output: TypeError: 'str' object does not support item assignment
+
+  We saw an example of mutability and immutability when we spoke of strings and lists.
+  They are both ordered, every element or character is in a certain position.
