@@ -1,1 +1,36 @@
 python_crash_course_13_common_functions_and_methods
+
+
+Python len() Function
+
+  - The len() function returns the number of items in an object.
+  - When the object is a string, the len() function returns the number of characters in the string.
+    - Example:
+      - numbers = [4,3,3,7]
+        - len(numbers)
+          - Output: 4
+
+Python max() Function
+
+  - The max() function returns the item with the highest value, or the item with the highest value in an iterable.
+  - If the values are strings, an alphabetically comparison is done.
+    - Example:
+      - numbers = [4,3,3,7]
+        - max(numbers)
+          - Output: 7 
+      - Example:
+      - names = ["Butterscotch", "Pancake", "Zebra"]
+        - max(names)
+          - Output: 'Zebra'
+      *NOTE*: int and string types cannot BOTH be in one list and will return an error
+
+Python sorted() Function
+
+  - The sorted() function returns a sorted list of the specified iterable object.
+  - You can specify ascending or descending order. Strings are sorted alphabetically, and numbers are sorted numerically.
+    - Example: 
+      - names = ["Butterscotch", "Pancake", "Zebra"]
+        - sorted(names)
+          - Output: ['Butterscotch', 'Pancake', 'Zebra']
+
+      *NOTE*: You cannot sort a list that contains BOTH string values AND numeric values.
