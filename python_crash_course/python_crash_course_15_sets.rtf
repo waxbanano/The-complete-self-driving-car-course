@@ -1,3 +1,28 @@
 python_crash_course_15_sets
 
 Python Sets
+  - Sets are used to store multiple items in a single variable.
+  - Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+  - A set is a collection which is unordered, unchangeable*, and unindexed.
+  - * Note: Set items are unchangeable, but you can remove items and add new items.
+
+    - Example:
+      - duplicate_numbers = [1,1,2,2,3,3]
+        - unique_numbers = set(duplicate_numbers)
+          - print(unique_numbers)
+            - Output: {1, 2, 3}
+
+  Set add() Method in Python
+    - The Python set add() method adds a given element to a set if the element is not present in the set in Python.
+
+      - Example:
+        - duplicate_numbers = [1,1,2,2,3,3]
+          - unique_numbers = set(duplicate_numbers)
+            - unique_numbers.add(4)
+              - print(unique_numbers)
+                - Output: {1, 2, 3, 4}
+        
+  We can check if an element is inside of a set with the membership operator in.
+      - Example:
+        - print(2 in unique_numbers)
+          - Output: True
