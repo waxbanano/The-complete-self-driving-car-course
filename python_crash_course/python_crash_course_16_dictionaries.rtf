@@ -1,1 +1,26 @@
 python_crash_course_16_dictionaries
+
+Python Dictionaries
+  - Dictionaries are used to store data values in key:value pairs.
+  - A dictionary is a collection which is ordered, changeable and do not allow duplicates.
+  - Dictionaries are written with curly brackets, and have keys and values
+
+  - Example: 
+    - inventory = {'bananas' : 1.29, 'apples': 2.99, 'papayas': 1.39}
+      - print(inventory)
+        - Output: {'bananas': 1.29, 'apples': 2.99, 'papayas': 1.39}
+          - print(inventory['bananas'])
+            - Output: 1.29
+  - Example: Edit Values
+    - inventory['bananas'] = 2.99
+      - print(inventory['bananas'])
+        - Output: 2.99
+
+  - Example: Dictionaries built in get method which gets the values.
+    - bananas_price = inventory.get('bananas')
+      - print(bananas_price)
+        - Output: 2.99
+
+  - Example: Membership operator
+    - print('papayas' in inventory)
+      - Output: True
